@@ -1,12 +1,40 @@
-function checkprime(num){
-    let factor=0;
-    for(let i=0;i<=num;i++){
-        if(num%2==0){
-            facter++;
+Identify_Prime...
+
+let num = 13;
+
+let count = 0;
+    
+    for(let i=0 ; i<=num ; i++){
+        
+        if(num%i==0){
+            
+            count++;
         }
-    }if(factor==2){
-        console.log("prime number")
+    }if(count==2){
+        
+        console.log("Yes");
     }else{
-        console.log("not a prime number");
+        console.log("No");
     }
+
+//---*---*---*---*---*---*---*---*---*---*---//
+
+//Check_Palindrome...
+
+	let str = "naman";
+    
+    let bag = "";
+    
+    for(let p=str.lenght-1 ; p>=0 ; p--){
+        
+        bag += str[p];
+        
+    }if(bag===str){
+        
+        console.log("Yes");
+        
+    }else{
+    
+    console.log("No");
+
 }
